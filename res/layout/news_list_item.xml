@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkGreen"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:text="@string/packageTitle"
+            android:textAllCaps="true"
+            android:textColor="@color/darkGreen"
+            android:textSize="8pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pPubDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="@string/packagePubDate"
+            android:textColor="@color/white"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/pCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="@string/packageCategory"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/pDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="6"
+            android:paddingLeft="5dp"
+            android:text="@string/packageDescription"
+            android:textColor="@color/white"
+            android:textSize="5pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/pLink"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:autoLink="web"
+            android:background="@color/darkGreen"
+            android:padding="5dp"
+            android:text="@string/readFullArticle"
+            android:textSize="5pt" />
+    </LinearLayout>
+
+</LinearLayout>

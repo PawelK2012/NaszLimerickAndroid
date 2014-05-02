@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkGreen"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/icon_alt"
+        android:src="@drawable/ic_launcher_estate" >
+    </ImageView>
+    <TextView
+        android:id="@+id/aTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:lines="1"
+        android:paddingLeft="5dp"
+        android:background="@color/white"
+        android:text="@string/acommPackageTitle"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/aLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:autoLink="web"
+        android:text="@string/acommPackageLink"
+        android:background="@color/green"
+        android:textColor="@color/white" />
+
+    
+    <TextView
+        android:id="@+id/aAddress"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textColor="@color/white"
+        android:text="@string/accommPackageAddress" />
+
+  
+
+</LinearLayout>

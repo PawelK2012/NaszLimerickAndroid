@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Nasz Limerick Mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="homeScreeen">Home Screen</string>
+    <string name="lNews">Latest News</string>
+    <string name="events">Events</string>
+    <string name="lInformation">Local Informations</string>
+    <string name="pointsOfInterest">Point of Interest</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="homeMenu">Home</string>
+    <string name="newsMenu">Latest News</string>
+    <string name="eventsMenu">Events</string>
+    <string name="localMenu">Local Informations</string>
+    <string name="pointMenu">Point of Interest</string>
+    <string name="accommodationMenu">Accommodation</string>
+
+    <color name="green">#009900</color>
+    <color name="white">#ffffff</color>
+    <color name="darkGreen">#018b01</color>
+
+    <string name="packageTitle">Title</string>
+    <string name="packageLink">Link</string>
+    <string name="packagePubDate">Date</string>
+    <string name="packageDescription">Description</string>
+    <string name="packageCategory">Category</string>
+    <string name="acommPackageTitle">Title</string>
+    <string name="acommPackageLink">Link</string>
+    <string name="accommPackageDescription">Description</string>
+    <string name="accommPackageAddress">Address</string>
+    <string name="accommPackagePrice">Price</string>
+    <string name="readFullArticle">Read more</string>
+    <string name="note">Save note</string>
+    <string name="noteTitle">Note title</string>
+    <string name="noteContent">Your new note</string>
+    <string name="cancelNoteBtn">Cancel</string>
+    <string name="saveNoteBtn">Add</string>
+    <string name="location">Location:</string>
+    <string name="go">Go</string>
+    <string name="map_info">Map info</string>
+    <string name="currentlocation">Current Location</string>
+    <string name="hello_world">Tap two locations in the map</string>
+    <string name="srt_tv_distance_time">Distance</string>
+    <string name="no_todos">Currently there are no Todo items maintained</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Delete Todo</string>
+    <string name="todo_summary">Summary</string>
+    <string name="todo_description">Delete Todo</string>
+    <string name="todo_edit_summary">Summary</string>
+    <string name="todo_edit_description">Description</string>
+    <string name="todo_edit_confirm">Confirm</string>
+    <string name="icon_alt">Icon</string>
+</resources>

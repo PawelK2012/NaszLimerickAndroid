@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Nasz Limerick Mobile</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="homeScreeen">Strona Główna</string>
+    <string name="lNews">Wiadomości Lokalne</string>
+    <string name="events">Wydarzenia</string>
+    <string name="lInformation">Lokalne Informacje</string>
+    <string name="pointsOfInterest">Punkty Zainteresowania</string>
+    <string name="accommodation">Wynajem</string>
+    <string name="homeMenu">Home</string>
+    <string name="newsMenu">Wiadomości</string>
+    <string name="eventsMenu">Wydarzenia</string>
+    <string name="localMenu">Lokalne Informacje</string>
+    <string name="pointMenu">Punkty Zainteresowania</string>
+    <string name="accommodationMenu">Wynajem</string>
+
+    <color name="green">#009900</color>
+    <color name="white">#ffffff</color>
+    <color name="darkGreen">#018b01</color>
+
+    <string name="packageTitle">Tytuł</string>
+    <string name="packageLink">Link</string>
+    <string name="packagePubDate">Data</string>
+    <string name="packageDescription">Opis</string>
+    <string name="packageCategory">Kategoria</string>
+    <string name="acommPackageTitle">Tytuł</string>
+    <string name="acommPackageLink">Link</string>
+    <string name="accommPackageDescription">Opis</string>
+    <string name="accommPackageAddress">Adres</string>
+    <string name="accommPackagePrice">Cena</string>
+    <string name="readFullArticle">Cztaj dalej</string>
+    <string name="note">Zapisz notatke</string>
+    <string name="noteTitle">Tytuł notki</string>
+    <string name="noteContent">Nowa notka</string>
+    <string name="cancelNoteBtn">Anuluj</string>
+    <string name="saveNoteBtn">Dodaj</string>
+    <string name="location">Lokacja:</string>
+    <string name="go">Go</string>
+    <string name="map_info">Map info</string>
+    <string name="currentlocation">Aktualne miejsce</string>
+    <string name="hello_world">Zaznacz 2 punkty na mapie</string>
+    <string name="srt_tv_distance_time">Dystans</string>
+    <string name="no_todos">Nie ma żadnych plików</string>
+    <string name="menu_insert">Dodaj</string>
+    <string name="menu_delete">Skasuj</string>
+    <string name="todo_summary">Streszczenie</string>
+    <string name="todo_description">Skasuj</string>
+    <string name="todo_edit_summary">Streszczenie</string>
+    <string name="todo_edit_description">Opis</string>
+    <string name="todo_edit_confirm">Potwierdź</string>
+    <string name="icon_alt">Ikona</string>   
+</resources>

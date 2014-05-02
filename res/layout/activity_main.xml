@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homesm"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/lNewsId"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:onClick="goToNews"
+        android:text="@string/lNews"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/pointOfInterestId"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/green"
+        android:onClick="goToPointInterest"
+        android:text="@string/pointsOfInterest"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/accommodation"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@color/green"
+        android:text="@string/accommodation"
+        android:textAllCaps="true"
+        android:onClick="goToAccommondation"
+        android:textColor="@color/white" />
+
+     <Button
+         android:id="@+id/btnSaveNote"
+         android:layout_width="290dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginTop="150dp"
+         android:background="@color/green"
+         android:onClick="goToNotes"
+         android:text="@string/note"
+         android:textAllCaps="true"
+         android:textColor="@color/white" />
+
+</FrameLayout>
